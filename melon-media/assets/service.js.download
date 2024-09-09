@@ -1,0 +1,1 @@
+!function(e){var t=function(e,t){t(".axtra-service__item:nth-child(1)",e).addClass("active");let n=t(".axtra-service__item",e);n.on("mouseover",function(e){n.removeClass("active"),t(this).addClass("active")})};e(window).on("melon/frontend/init",function(){melonFrontend.hooks.addAction("frontend/element_ready/axtra-service.default",t)})}(jQuery)
